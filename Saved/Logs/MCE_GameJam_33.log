@@ -1611,3 +1611,140 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.27-01.13.00:259][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
 [2024.01.27-01.13.00:316][ 87]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Maps/ThirdPersonMap does not exist, will not scan.
 [2024.01.27-01.13.05:231][188]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Maps/ThirdPersonMap does not exist, will not scan.
+[2024.01.27-01.14.41:206][615]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.27-01.14.41:224][615]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.27-01.14.41:248][616]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.27-01.14.45:762][883]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2024.01.27-01.14.45:762][883]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.27-01.15.02:579][577]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.27-01.15.02:588][577]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.01.27-01.15.02:603][577]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.01.27-01.15.02:658][579]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.01.27-01.15.18:142][498]LogContentBrowser: Attempting asset rename: NewBlueprint -> SinglePlayer
+[2024.01.27-01.15.18:155][498]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.01.27-01.15.51:736][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.01.27-01.15.51:758][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.15.51:829][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Demo" FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Levels/Demo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.27-01.15.51:846][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.01.27-01.15.51:858][217]LogSavePackage: Moving output files for package: /Game/Levels/Demo
+[2024.01.27-01.15.51:859][217]LogSavePackage: Moving '../../../../Unreal Projects/MCE_GameJam_33/Saved/Demo29A17A0944C5C747D987F19CDF6F039C.tmp' to '../../../../Unreal Projects/MCE_GameJam_33/Content/Levels/Demo.umap'
+[2024.01.27-01.15.51:872][217]LogFileHelpers: Saving map 'Demo' took 0.044
+[2024.01.27-01.15.51:872][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SinglePlayer" FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/SinglePlayer.uasset" SILENT=true
+[2024.01.27-01.15.51:883][217]LogSavePackage: Moving output files for package: /Game/Blueprints/SinglePlayer
+[2024.01.27-01.15.51:883][217]LogSavePackage: Moving '../../../../Unreal Projects/MCE_GameJam_33/Saved/SinglePlayerFF5694AC48882A97F2D4A8938500CF45.tmp' to '../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/SinglePlayer.uasset'
+[2024.01.27-01.15.51:897][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 608 ms)
+[2024.01.27-01.15.51:899][217]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.27-01.15.51:899][217]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Demo.Demo
+[2024.01.27-01.15.51:899][217]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/SinglePlayer.SinglePlayer
+[2024.01.27-01.17.41:427][935]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.27-01.17.41:435][935]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.01.27-01.17.41:446][935]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.01.27-01.17.41:499][936]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.01.27-01.17.45:148][150]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Player
+[2024.01.27-01.17.45:156][150]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.01.27-01.18.12:317][399]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/SinglePlayer.SinglePlayer
+[2024.01.27-01.18.12:321][399]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.18.12:321][399]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.18.12:367][399]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.01.27-01.18.14:320][399]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2024.01.27-01.18.16:299][399]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 1.979214s
+[2024.01.27-01.18.17:163][399]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 4.844581s (2.844581s overbudget)
+[2024.01.27-01.18.17:284][399]LogViewport: Scene viewport resized to 1211x867, mode Windowed.
+[2024.01.27-01.18.39:529][673]LogSlate: Took 0.007335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.27-01.18.46:181][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.01.27-01.18.46:187][875]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.18.46:253][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SinglePlayer" FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/SinglePlayer.uasset" SILENT=true
+[2024.01.27-01.18.46:257][875]LogSavePackage: Moving output files for package: /Game/Blueprints/SinglePlayer
+[2024.01.27-01.18.46:258][875]LogSavePackage: Moving '../../../../Unreal Projects/MCE_GameJam_33/Saved/SinglePlayerE3DD75634276FD816AF6AB82438BC219.tmp' to '../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/SinglePlayer.uasset'
+[2024.01.27-01.18.46:259][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.01.27-01.18.46:263][875]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.01.27-01.18.46:263][875]LogSavePackage: Moving '../../../../Unreal Projects/MCE_GameJam_33/Saved/BP_Player84B7CC9E4D2029D0474AC2A897CB9CE0.tmp' to '../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset'
+[2024.01.27-01.18.46:288][875]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 709 ms)
+[2024.01.27-01.18.46:290][875]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.27-01.18.46:290][875]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/SinglePlayer.SinglePlayer
+[2024.01.27-01.18.46:290][875]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.01.27-01.19.29:510][178]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.01.27-01.19.29:511][178]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.19.29:512][178]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.19.29:691][178]LogViewport: Scene viewport resized to 1211x867, mode Windowed.
+[2024.01.27-01.21.13:622][645]LogSlate: Took 0.006797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.27-01.21.13:714][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.21.23:799][925]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny_Simple) ...
+[2024.01.27-01.21.23:871][925]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.21.23:947][926]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.21.53:826][377]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2024.01.27-01.21.53:831][377]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.21.53:923][377]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.21.53:954][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.01.27-01.21.53:959][377]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.01.27-01.21.53:960][377]LogSavePackage: Moving '../../../../Unreal Projects/MCE_GameJam_33/Saved/BP_Player8070552C4F200F840B482D9F7462B144.tmp' to '../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset'
+[2024.01.27-01.21.53:971][377]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 847 ms)
+[2024.01.27-01.21.53:976][377]AssetCheck: New page: Asset Save: BP_Player
+[2024.01.27-01.21.53:976][377]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.01.27-01.21.55:807][432]BlueprintLog: New page: Compile BP_Player
+[2024.01.27-01.21.55:884][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.01.27-01.21.56:027][433]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.25.24:303][534]BlueprintLog: New page: Compile BP_Player
+[2024.01.27-01.25.24:360][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.01.27-01.25.25:645][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.01.27-01.25.25:653][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-01.25.25:728][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2024.01.27-01.25.25:734][570]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2024.01.27-01.25.25:734][570]LogSavePackage: Moving '../../../../Unreal Projects/MCE_GameJam_33/Saved/BP_PlayerD109BD604BC206FAD2729B995AC1BA08.tmp' to '../../../../Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset'
+[2024.01.27-01.25.25:745][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 940 ms)
+[2024.01.27-01.25.25:746][570]AssetCheck: New page: Asset Save: BP_Player
+[2024.01.27-01.25.25:746][570]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2024.01.27-01.25.28:436][654]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-01.25.28:445][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-01.25.28:445][654]PIE: New page: PIE session: Demo (Jan 26, 2024, 6:25:28 PM)
+[2024.01.27-01.25.28:445][654]LogPlayLevel: Display: Creating online subsystem for client :Context_10
+[2024.01.27-01.25.28:450][654]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.01.27-01.25.28:479][655]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Demo
+[2024.01.27-01.25.28:482][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002629s)
+[2024.01.27-01.25.28:482][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Demo.Demo to /Game/Levels/UEDPIE_0_Demo.Demo (0.002705s)
+[2024.01.27-01.25.28:505][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.01.27-01.25.28:508][655]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.25.28:508][655]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.25.28:509][655]LogAIModule: Creating AISystem for world Demo
+[2024.01.27-01.25.28:509][655]LogPlayLevel: PIE: World Init took: (0.001791s)
+[2024.01.27-01.25.28:510][655]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.01.27-01.25.28:510][655]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-01.25.28:510][655]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-01.25.28:510][655]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-01.25.28:510][655]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-01.25.28:510][655]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-01.25.28:510][655]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-01.25.28:510][655]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-01.25.28:510][655]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-01.25.28:510][655]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-01.25.28:510][655]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-01.25.28:511][655]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-01.25.28:514][655]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-01.25.28:542][655]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.27-01.25.28:542][655]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-01.25.28:542][655]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-01.25.28:542][655]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-01.25.28:544][655]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.01.27-01.25.28:544][655]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.01.27-01.25.28:547][655]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.01.27-01.25.28:547][655]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.01.27-01.25.28:547][655]LogInit: FAudioDevice initialized with ID 3.
+[2024.01.27-01.25.28:547][655]LogAudio: Display: Audio Device (ID: 3) registered with world 'Demo'.
+[2024.01.27-01.25.28:547][655]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.27-01.25.28:551][655]LogLoad: Game class is 'SinglePlayer_C'
+[2024.01.27-01.25.28:552][655]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Demo.Demo up for play (max tick rate 0) at 2024.01.26-21.55.28
+[2024.01.27-01.25.28:552][655]LogWorld: Bringing up level for play took: 0.000946
+[2024.01.27-01.25.28:555][655]PIE: Server logged in
+[2024.01.27-01.25.28:557][655]PIE: Play in editor total start time 0.115 seconds.
+[2024.01.27-01.25.33:390][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.25.33:390][828]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Demo
+[2024.01.27-01.25.33:390][828]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.25.33:391][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.25.33:410][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-01.25.33:417][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.25.33:433][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.25.33:433][828]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.01.27-01.25.33:433][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.27-01.25.33:436][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.01.27-01.25.33:446][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.01.27-01.25.33:480][829]LogPlayLevel: Display: Destroying online subsystem :Context_10
