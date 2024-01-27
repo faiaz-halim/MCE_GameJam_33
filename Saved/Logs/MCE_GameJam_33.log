@@ -1436,3 +1436,178 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.26-22.56.40:823][751]LogAnalytics: Warning:     Editor.Usage.Heartbeat,423
 [2024.01.26-23.05.33:054][347]LogDerivedDataCache: C:/Users/faiaz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.098 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 645 files in 1083 folders with total size 11 MiB.
 [2024.01.27-00.05.33:104][ 57]LogDerivedDataCache: C:/Users/faiaz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.109 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 645 files in 1083 folders with total size 11 MiB.
+[2024.01.27-01.05.34:096][855]LogDerivedDataCache: C:/Users/faiaz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.038 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 645 files in 1083 folders with total size 11 MiB.
+[2024.01.27-01.07.58:616][384]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-01.07.58:629][384]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-01.07.58:629][384]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-01.07.58:637][384]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 8 ms
+[2024.01.27-01.07.58:645][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-01.07.58:652][384]PIE: New page: PIE session: ThirdPersonMap (Jan 26, 2024, 6:07:58 PM)
+[2024.01.27-01.07.58:654][384]LogPlayLevel: Display: Creating online subsystem for client :Context_2
+[2024.01.27-01.07.58:658][384]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2024.01.27-01.07.58:686][385]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.07.58:718][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031317s)
+[2024.01.27-01.07.58:718][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.032039s)
+[2024.01.27-01.07.58:767][385]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2024.01.27-01.07.58:772][385]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.07.58:773][385]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.07.58:775][385]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-01.07.58:778][385]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-01.07.58:779][385]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-01.07.58:779][385]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-01.07.58:779][385]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-01.07.58:781][385]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-01.07.58:782][385]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 80 ms)
+[2024.01.27-01.07.58:782][385]LogPlayLevel: PIE: World Init took: (0.010107s)
+[2024.01.27-01.07.58:783][385]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.01.27-01.07.58:783][385]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-01.07.58:783][385]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-01.07.58:783][385]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-01.07.58:783][385]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-01.07.58:783][385]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-01.07.58:783][385]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-01.07.58:783][385]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-01.07.58:783][385]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-01.07.58:785][385]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-01.07.58:785][385]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-01.07.58:785][385]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-01.07.58:788][385]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-01.07.58:820][385]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2024.01.27-01.07.58:821][385]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-01.07.58:821][385]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-01.07.58:821][385]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-01.07.58:822][385]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.01.27-01.07.58:822][385]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.01.27-01.07.58:824][385]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.01.27-01.07.58:824][385]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.01.27-01.07.58:824][385]LogInit: FAudioDevice initialized with ID 2.
+[2024.01.27-01.07.58:825][385]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2024.01.27-01.07.58:825][385]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.27-01.07.58:842][385]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-01.07.58:846][385]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.01.26-21.37.58
+[2024.01.27-01.07.58:849][385]LogWorld: Bringing up level for play took: 0.004276
+[2024.01.27-01.07.58:968][385]PIE: Server logged in
+[2024.01.27-01.07.58:970][385]PIE: Play in editor total start time 0.342 seconds.
+[2024.01.27-01.08.26:696][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.08.26:696][ 74]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-01.08.26:698][ 74]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.08.26:699][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.08.26:700][ 74]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.08.26:710][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-01.08.26:713][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.08.26:758][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-01.08.26:758][ 74]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.01.27-01.08.26:761][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.27-01.08.26:764][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.01.27-01.08.26:782][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.01.27-01.08.26:826][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2024.01.27-01.09.56:140][348]LogSlate: Window 'New Level' being destroyed
+[2024.01.27-01.09.56:148][348]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.27-01.09.56:160][348]LightingResults: New page: Lighting Build
+[2024.01.27-01.09.56:161][348]LoadErrors: New page: Loading map: Template_Default.umap
+[2024.01.27-01.09.56:195][348]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.09.56:195][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.09.56:200][348]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.09.56:201][348]MapCheck: New page: Map Check
+[2024.01.27-01.09.56:201][348]LightingResults: New page: Lighting Build
+[2024.01.27-01.09.56:205][348]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-01.09.56:214][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.01.27-01.09.56:291][348]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2024.01.27-01.09.56:291][348]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.09.56:291][348]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.09.56:293][348]LogAIModule: Creating AISystem for world Untitled_1
+[2024.01.27-01.09.56:421][348]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.27-01.09.56:428][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.01.27-01.09.56:428][348]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.27-01.09.56:429][348]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
+[2024.01.27-01.10.26:786][813]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.01.27-01.10.48:915][420]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.27-01.10.48:918][420]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.27-01.10.48:930][420]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.27-01.10.56:134][420]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2024.01.27-01.10.56:135][420]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.27-01.11.09:338][420]LogSlate: Window 'Save Level As' being destroyed
+[2024.01.27-01.11.09:433][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Demo" FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Demo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.27-01.11.09:462][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.01.27-01.11.09:472][420]LogSavePackage: Moving output files for package: /Game/Demo
+[2024.01.27-01.11.09:472][420]LogSavePackage: Moving '../../../../Unreal Projects/MCE_GameJam_33/Saved/Demo4E60BDE645BBEAB83D1F3C87129E7FE6.tmp' to '../../../../Unreal Projects/MCE_GameJam_33/Content/Demo.umap'
+[2024.01.27-01.11.09:496][420]LogFileHelpers: Saving map 'Demo' took 0.143
+[2024.01.27-01.11.09:496][420]Cmd: MAP LOAD FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Demo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.27-01.11.09:496][420]LightingResults: New page: Lighting Build
+[2024.01.27-01.11.09:496][420]LoadErrors: New page: Loading map: Demo.umap
+[2024.01.27-01.11.09:509][420]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.11.09:509][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.11.09:509][420]MapCheck: New page: Map Check
+[2024.01.27-01.11.09:509][420]LightingResults: New page: Lighting Build
+[2024.01.27-01.11.09:514][420]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-01.11.09:516][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.01.27-01.11.09:520][420]LogAudio: Display: Audio Device (ID: 1) registered with world 'Demo'.
+[2024.01.27-01.11.09:520][420]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.11.09:520][420]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.11.09:522][420]LogAIModule: Creating AISystem for world Demo
+[2024.01.27-01.11.09:605][420]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.27-01.11.09:611][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.27-01.11.09:614][420]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.27-01.11.09:614][420]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.155ms to complete.
+[2024.01.27-01.11.09:618][420]AssetCheck: New page: Asset Save: Demo
+[2024.01.27-01.11.09:618][420]LogContentValidation: Display: Validating /Script/Engine.World /Game/Demo.Demo
+[2024.01.27-01.12.30:183][169]LogSlate: Window 'Save Level As' being destroyed
+[2024.01.27-01.12.30:263][169]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.12.30:267][169]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.12.30:270][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Demo" FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Levels/Demo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.27-01.12.30:281][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.27-01.12.30:293][169]LogSavePackage: Moving output files for package: /Game/Levels/Demo
+[2024.01.27-01.12.30:293][169]LogSavePackage: Moving '../../../../Unreal Projects/MCE_GameJam_33/Saved/DemoBF3882E94B12C16B6ADCB69066010ED8.tmp' to '../../../../Unreal Projects/MCE_GameJam_33/Content/Levels/Demo.umap'
+[2024.01.27-01.12.30:327][169]LogFileHelpers: Saving map 'Demo' took 0.131
+[2024.01.27-01.12.30:327][169]Cmd: MAP LOAD FILE="../../../../Unreal Projects/MCE_GameJam_33/Content/Levels/Demo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.01.27-01.12.30:327][169]LightingResults: New page: Lighting Build
+[2024.01.27-01.12.30:327][169]LoadErrors: New page: Loading map: Demo.umap
+[2024.01.27-01.12.30:340][169]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.12.30:340][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.12.30:340][169]MapCheck: New page: Map Check
+[2024.01.27-01.12.30:340][169]LightingResults: New page: Lighting Build
+[2024.01.27-01.12.30:345][169]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-01.12.30:347][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.01.27-01.12.30:350][169]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.12.30:350][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.12.30:356][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.01.27-01.12.30:362][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.01.27-01.12.30:368][169]LogAudio: Display: Audio Device (ID: 1) registered with world 'Demo'.
+[2024.01.27-01.12.30:368][169]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.12.30:368][169]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-01.12.30:369][169]LogAIModule: Creating AISystem for world Demo
+[2024.01.27-01.12.30:443][169]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.27-01.12.30:449][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.01.27-01.12.30:451][169]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.27-01.12.30:452][169]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.114ms to complete.
+[2024.01.27-01.12.30:454][169]AssetCheck: New page: Asset Save: Demo
+[2024.01.27-01.12.30:455][169]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Demo.Demo
+[2024.01.27-01.12.42:304][693]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.12.42:305][693]LogObjectTools: Deleting 1 worlds: /Game/Demo.Demo
+[2024.01.27-01.12.42:305][693]LogObjectTools: Currently 2 active worlds: /Game/Levels/Demo.Demo, /Engine/Transient.World_0
+[2024.01.27-01.12.42:314][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.01.27-01.12.45:923][693]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.27-01.12.45:929][693]LogWorld: UWorld::CleanupWorld for Demo, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.12.45:929][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.12.45:955][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.27-01.12.45:966][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.01.27-01.12.45:971][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.01.27-01.12.53:463][ 87]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.01.27-01.12.53:753][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-01.12.53:755][ 87]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.27-01.12.53:755][ 87]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-01.12.53:755][ 87]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-01.12.53:757][ 87]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-01.12.53:757][ 87]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 82 ms)
+[2024.01.27-01.12.53:759][ 87]LogObjectTools: Deleting 1 worlds: /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2024.01.27-01.12.53:760][ 87]LogObjectTools: Currently 2 active worlds: /Game/Levels/Demo.Demo, /Engine/Transient.World_0
+[2024.01.27-01.12.53:773][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.01.27-01.13.00:163][ 87]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.27-01.13.00:171][ 87]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-01.13.00:171][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-01.13.00:172][ 87]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-01.13.00:245][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.01.27-01.13.00:252][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.01.27-01.13.00:259][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.01.27-01.13.00:316][ 87]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Maps/ThirdPersonMap does not exist, will not scan.
+[2024.01.27-01.13.05:231][188]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Maps/ThirdPersonMap does not exist, will not scan.
