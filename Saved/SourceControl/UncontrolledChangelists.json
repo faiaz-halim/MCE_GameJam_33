@@ -63,7 +63,10 @@
 				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/ThirdPerson/Input/Actions/IA_Look.uasset",
 				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/ThirdPerson/Input/Actions/IA_Jump.uasset",
 				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Blueprints/SinglePlayer.uasset",
-				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset"
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Input/IMC_PlayerInput.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Input/IA_Move.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Input/IA_View.uasset"
 			]
 		}
 	]
