@@ -63,7 +63,25 @@
 				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/ThirdPerson/Input/Actions/IA_Look.uasset",
 				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/ThirdPerson/Input/Actions/IA_Jump.uasset",
 				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Blueprints/SinglePlayer.uasset",
-				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset"
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Player.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Input/IMC_PlayerInput.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Input/IA_Move.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Input/IA_View.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Characters/Mannequins/Animations/ABP_Quinn.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Characters/Mannequins/Animations/ABP_Player.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Characters/Mannequins/Animations/Idle_Jog.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Punch.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Kick.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Characters/Mannequins/Animations/Manny/Kick.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Characters/Mannequins/Animations/Manny/Punch.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Characters/Mannequins/Animations/Manny/Kick_Montage.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Characters/Mannequins/Animations/Manny/Punch_Montage.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Input/IA_Attack.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Input/IA_Punch.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Input/IA_Kick.uasset",
+				"C:/Games/Epic/Unreal Projects/MCE_GameJam_33/Content/Blueprints/BP_Enemy.uasset"
 			]
 		}
 	]
