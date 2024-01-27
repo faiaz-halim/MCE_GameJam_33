@@ -1432,3 +1432,7 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.26-22.03.51:574][ 25]LogViewport: Scene viewport resized to 1014x580, mode Windowed.
 [2024.01.26-22.03.52:940][ 57]LogViewport: Scene viewport resized to 1526x892, mode Windowed.
 [2024.01.26-22.05.33:124][ 18]LogDerivedDataCache: C:/Users/faiaz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.169 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 645 files in 1083 folders with total size 11 MiB.
+[2024.01.26-22.56.40:823][751]LogAnalytics: Warning: EventCache either took too long to flush (2.599 ms) or had a very large payload (0.426 KB, 1 events). Listing events in the payload for investigation:
+[2024.01.26-22.56.40:823][751]LogAnalytics: Warning:     Editor.Usage.Heartbeat,423
+[2024.01.26-23.05.33:054][347]LogDerivedDataCache: C:/Users/faiaz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.098 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 645 files in 1083 folders with total size 11 MiB.
+[2024.01.27-00.05.33:104][ 57]LogDerivedDataCache: C:/Users/faiaz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.109 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 645 files in 1083 folders with total size 11 MiB.
